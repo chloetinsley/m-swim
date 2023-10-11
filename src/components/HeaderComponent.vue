@@ -124,19 +124,19 @@ onMounted(() => {
   .top-content {
     padding: 30px 50px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
   }
   .hidden {
     display: none;
   }
   .nav-items {
     position: relative;
-    z-index: 0;
+    /* z-index: 0; */
     /* bottom: 180px;  */
   }
   .nav-items a {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
   }
 
   .nav-links:not(.toggle) {
@@ -178,7 +178,7 @@ onMounted(() => {
     flex-direction: column;
     align-self: stretch;
     /* padding-top: 30px; */
-    z-index: 0;
+    z-index: 1;
     position: relative;
 
     /* transition: 0.5s;
