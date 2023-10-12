@@ -35,7 +35,7 @@
   text-align: center;
   /* flex-direction: column; */
   /* height: 60px; */
-  padding: 60px 15%;
+  padding: 40px 10%;
   /* width: 100%; */
   /* height: auto; */
 }
@@ -69,12 +69,7 @@
 .rows {
   flex-direction: column;
 }
-.light-blue {
-  background-color: #ebf7fd;
-}
-.light-grey {
-  background-color: #f4f6fc;
-}
+
 @media only screen and (max-width: 864px) {
   .image-slice {
     /* height: 40vh; */

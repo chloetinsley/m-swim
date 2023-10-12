@@ -60,9 +60,17 @@ body {
 main {
   font-family: 'Geneva', sans-serif;
 }
-.wrapper {  display: flex;
+.wrapper {  
+  display: flex;
   align-items: stretch;
-  justify-content: space-between;}
+  justify-content: space-between;
+}
+.light-blue {
+  background-color: #ebf7fd;
+}
+.light-grey {
+  background-color: #f4f6fc;
+}
 /* *,
 *::before,
 *::after {

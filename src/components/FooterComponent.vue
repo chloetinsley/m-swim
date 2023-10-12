@@ -1,5 +1,5 @@
 <template>
-  <footer class="wrapper">
+  <footer class="footer">
     <div>
       <p>© Copyright {{new Date().getFullYear()}} M Swim</p>
     </div>
@@ -18,10 +18,9 @@ footer {
   font-size: 14px;
   padding: 20px 60px;
   color: #fdfeff;
-  /* display: flex;
-  align-items: stretch; */
   justify-content: space-between;
-  /* height: 20px; */
+  display: flex;
+  align-items: stretch;
 }
 footer > div {
   display: flex;
