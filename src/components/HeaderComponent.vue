@@ -65,7 +65,7 @@ function toggleNavIcon() {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 20px 50px;
 }
 .logo {
   max-height: 60px;
@@ -106,18 +106,19 @@ function toggleNavIcon() {
 
 @media only screen and (max-width: 640px) {
   header {
-    max-height: 125px;
+    max-height: 105px;
   }
   .header {
     flex-direction: column;
     padding: 0;
+    background-color: transparent;
   }
   .nav-items {
     display: flex;
     flex-direction: column;
   }
   .top-content {
-    padding: 30px 50px;
+    padding: 20px 50px;
     position: relative;
     z-index: 2;
   }
@@ -138,7 +139,7 @@ function toggleNavIcon() {
   }
   @keyframes fadein {
     from {
-      transform: translateY(-230px);
+      transform: translateY(-250px);
     }
     to {
       transform: translateY(0%);
@@ -149,11 +150,11 @@ function toggleNavIcon() {
       transform: translateY(0%);
     }
     to {
-      transform: translateY(-230px);
+      transform: translateY(-250px);
     }
   }
   .toggle {
-    transform: translateY(-230px);
+    transform: translateY(-250px);
   }
   .top-content {
     display: flex;
