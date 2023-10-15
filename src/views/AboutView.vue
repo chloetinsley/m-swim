@@ -2,11 +2,25 @@
 <template>
   <div class="wrapper light-blue">
     <h1>About M Swim</h1>
-    <p>
-      Dive into the M Swim experience. Join us in celebrating the freedom, fitness,
-      and fun that swimming brings to life. Whether you're here to conquer your fear of water,
-      refine your strokes, or prepare for a triathlon, we're with you, every lap of the way.
-    </p>
+
+    <div class="row">
+      <div class="vertical-align left">
+        <p>
+          Dive into the M Swim experience. Join us in celebrating the freedom, fitness,
+          and fun that swimming brings to life. Whether you're here to conquer your fear of water,
+          refine your strokes, or prepare for a triathlon, we're with you, every lap of the way.
+        </p>
+        <h2>Based in 3 locations accross Staffordshire</h2>
+        <ul>
+          <li>Waterworld leisure resort</li>
+          <li>M Club Spa & Fitness in Newcastle</li>
+          <li>M Club Spa & Fitness in Hanley</li>
+        </ul>
+      </div>
+      <div class="image-container">
+        <img src="../assets/images/about/m-swim-located-in.jpeg" />
+      </div>
+    </div>
     <div class="row">
       <div class="block">
         <p class="heading">
@@ -40,18 +54,10 @@
       </div>
     </div>
 
+    <!-- <div class="left"> -->
+    <p class="heading">M Swim..</p>
+    <p>where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
     <!-- </div> -->
-
-    <!-- test -->
-    <div class="row">
-      <div class="left">
-        <p class="heading">M Swim..</p>
-        <p>where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
-      </div>
-      <div class="image-container">
-        <img src="../assets/images/about/m-swim-located-in.jpeg" />
-      </div>
-    </div>
   </div>
 </template>
 
@@ -83,8 +89,11 @@ h2 {
   align-items: stretch;
   justify-content: space-between;
   padding: 20px 0 70px 0;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   /* border-bottom: 3px dashed #050a30; */
+}
+.vertical-align {
+  align-self: center;
 }
 .block {
   margin: 25px;
@@ -156,7 +165,7 @@ h2 {
 }
 .row img {
   width: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0px 1px 4px white;
 }
 p {
