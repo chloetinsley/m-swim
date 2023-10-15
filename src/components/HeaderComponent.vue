@@ -47,7 +47,7 @@ function toggleNavIcon() {
       <div id="navItems" class="nav-links toggle hidden">
         <div class="nav-items">
           <RouterLink to="/about" @click="navClick()">About</RouterLink>
-          <RouterLink to="/about" @click="navClick()">Lessons</RouterLink>
+          <RouterLink to="/lessons" @click="navClick()">Lessons</RouterLink>
           <RouterLink to="/contact" @click="navClick()">Contact</RouterLink>
         </div>
       </div>
@@ -87,7 +87,26 @@ function toggleNavIcon() {
   color: #fdfeff;
   text-decoration: none;
   font-size: 18px;
+  text-shadow: 0px 1px 4px black;
+  position: relative;
 }
+.nav-links a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fdfeff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}
+
 .burger {
   background-image: url('../assets/images/burger-menu.png');
 }
