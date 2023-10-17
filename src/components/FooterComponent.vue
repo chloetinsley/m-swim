@@ -1,13 +1,37 @@
 <template>
   <footer class="footer">
-    <div>
-      <p>© Copyright {{new Date().getFullYear()}} M Swim</p>
+    <div class="columns">
+      <p>Our other brands</p>
+      <div class="other-brands">
+        <img
+          src="../assets/images/footer-logos/other-brands/adventure-mini-village.png"
+          alt="Adventure Mini Village Logo"
+        />
+        <img
+          src="../assets/images/footer-logos/other-brands/adventure-mini-golf.png"
+          alt="Adventure Mini Golf Logo"
+        />
+        <img
+          src="../assets/images/footer-logos/other-brands/m-club.png"
+          class="m-club"
+          alt="M Club Logo"
+        />
+        <img src="../assets/images/footer-logos/other-brands/nurture.png" alt="Nurture Logo" />
+        <img src="../assets/images/footer-logos/other-brands/waterworld.png" alt="Waterworld Logo" />
+      </div>
     </div>
-    <div style>
-      <img alt="Vue logo" class="logo" src="@/assets/images/footer-logos/facebook.png" height="30" />
-    </div>
-    <div>
-      <p>Website by Chloe Tinsley</p>
+    <div class="row">
+      <div>
+        <p>© Copyright {{new Date().getFullYear()}} M Swim | Website by Chloe Tinsley</p>
+      </div>
+      <div style>
+        <img
+          alt="Vue logo"
+          class="logo"
+          src="@/assets/images/footer-logos/facebook.png"
+          height="30"
+        />
+      </div>
     </div>
   </footer>
 </template>
@@ -16,15 +40,39 @@
 footer {
   background-color: #050a30;
   font-size: 14px;
-  padding: 20px 60px;
   color: #fdfeff;
-  justify-content: space-between;
-  display: flex;
-  align-items: stretch;
+  padding: 0 60px;
 }
-footer > div {
+footer > .row {
   display: flex;
+  /* align-self: center; */
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* align-items: stretch; */
+  padding: 15px 0;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: 0.5px solid #f4f6fc;
+}
+.columns p {
   align-self: center;
+}
+.other-brands {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  padding: 10px 0;
+}
+.other-brands img {
+  padding-left: 20px;
+  height: 50px;
+}
+img.m-club {
+  height: 38px;
 }
 p {
   margin: 0;
