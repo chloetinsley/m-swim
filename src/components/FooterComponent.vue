@@ -41,7 +41,7 @@ footer {
   background-color: #050a30;
   font-size: 14px;
   color: #fdfeff;
-  padding: 0 60px;
+  padding: 0 5%;
 }
 footer > .row {
   display: flex;
@@ -68,13 +68,34 @@ footer > .row {
   padding: 10px 0;
 }
 .other-brands img {
-  padding-left: 20px;
   height: 50px;
+}
+.other-brands img:not(:first-of-type) {
+  padding-left: 20px;
 }
 img.m-club {
   height: 38px;
 }
 p {
   margin: 0;
+}
+@media only screen and (max-width: 640px) {
+  .other-brands img {
+    height: 45px;
+  }
+  img.m-club {
+    height: 28px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .other-brands img {
+    height: 28px;
+  }
+  img.m-club {
+    height: 18px;
+  }
+  footer {
+    padding: 0 7%;
+  }
 }
 </style>
