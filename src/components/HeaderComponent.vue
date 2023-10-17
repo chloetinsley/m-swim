@@ -89,6 +89,7 @@ function toggleNavIcon() {
   font-size: 18px;
   text-shadow: 0px 1px 4px black;
   position: relative;
+  /* text-transform: uppercase; */
 }
 .nav-links a::before {
   content: '';

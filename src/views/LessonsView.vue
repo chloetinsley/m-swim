@@ -3,8 +3,8 @@
 
 <template>
   <div class="wrapper light-blue">
-    <h1>Our Swimming Lessons</h1>
-    <h2>Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum.</h2>
+    <h1 class="page-heading">Our Swimming Lessons</h1>
+    <p>Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum.</p>
 
     <p>Baby & Parent Lessons**</p>
 
@@ -12,11 +12,15 @@
 
     <p>**Group Sessions**</p>
 
-    <p>* **Learn & Play:** Our group sessions are perfect for young beginners, teens, and adults. Here, you'll progress through various skill levels while enjoying the camaraderie of fellow swimmers. Our certified instructors create an encouraging and fun environment for you to flourish.</p>
+    <p>
+      <b>* **Learn & Play:**</b> Our group sessions are perfect for young beginners, teens, and adults. Here, you'll progress through various skill levels while enjoying the camaraderie of fellow swimmers. Our certified instructors create an encouraging and fun environment for you to flourish.
+    </p>
 
     <p>**1:1 Private Lessons**</p>
 
-    <p>* **Personalised Progress:** If you prefer a more tailored approach, our 1:1 private lessons are your ticket to a swimming transformation. Our experienced instructors work closely with you to address your unique goals and challenges, ensuring rapid improvement.</p>
+    <p>
+      <b>* **Personalised Progress:**</b> If you prefer a more tailored approach, our 1:1 private lessons are your ticket to a swimming transformation. Our experienced instructors work closely with you to address your unique goals and challenges, ensuring rapid improvement.
+    </p>
 
     <p>**A Journey Through Excellence**</p>
 

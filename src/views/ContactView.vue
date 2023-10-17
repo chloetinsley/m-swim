@@ -9,52 +9,54 @@ function success() {
 }
 </script>
 <template>
-  <div class="wrapper">
-    <div class="box bubble-background">
-      <div class>
-        <div class="contact-conent">
-          <p>077777777777</p>
-          <p>email@email.com</p>
-          <p>
-            address line one
-            <br />address line two
-            <br />address line three
-            <br />
-          </p>
-          <p>
-            <b>Opening Times</b>
-          </p>
+  <div class="wrapper light-blue">
+    <h1 class="page-heading">Contact</h1>
+    <div class="row">
+      <div class="box bubble-background">
+        <div class>
+          <div class="contact-conent">
+            <p>077777777777</p>
+            <p>email@email.com</p>
+            <p>
+              address line one
+              <br />address line two
+              <br />address line three
+              <br />
+            </p>
+            <p>
+              <b>Opening Times</b>
+            </p>
+          </div>
         </div>
+        <!-- <img alt="Vue logo" class="logo" src="@/assets/images/bubble-background6.png" height="400" /> -->
       </div>
-      <!-- <img alt="Vue logo" class="logo" src="@/assets/images/bubble-background6.png" height="400" /> -->
-    </div>
-    <div class="box">
-      <div class="contact-form">
-        <div id="contactForm">
-          <h2>How can we help you?</h2>
-          <p>We aim to get back to you within 48 working hours</p>
-          <div class="float-label-content">
-            <input class="float-input" type="text" name="customer_name" placeholder=" " />
-            <label class="float-label">Name</label>
-          </div>
+      <div class="box">
+        <div class="contact-form">
+          <div id="contactForm">
+            <h2>How can we help you?</h2>
+            <p>We aim to get back to you within 48 working hours</p>
+            <div class="float-label-content">
+              <input class="float-input" type="text" name="customer_name" placeholder=" " />
+              <label class="float-label">Name</label>
+            </div>
 
-          <div class="float-label-content">
-            <input class="float-input" type="email" name="customer_email" placeholder=" " />
-            <label class="float-label">Email</label>
-          </div>
+            <div class="float-label-content">
+              <input class="float-input" type="email" name="customer_email" placeholder=" " />
+              <label class="float-label">Email</label>
+            </div>
 
-          <div class="float-label-content">
-            <input class="float-input" type="number" name="customer_phone_number" placeholder=" " />
-            <label class="float-label">Phone Number</label>
-          </div>
+            <div class="float-label-content">
+              <input class="float-input" type="number" name="customer_phone_number" placeholder=" " />
+              <label class="float-label">Phone Number</label>
+            </div>
 
-          <div class="float-label-content">
-            <textarea class="float-input" name="message" placeholder=" "></textarea>
-            <!-- <input class="float-input" type="text" placeholder=" " /> -->
-            <label class="float-label">Query</label>
-          </div>
+            <div class="float-label-content">
+              <textarea class="float-input" name="message" placeholder=" "></textarea>
+              <!-- <input class="float-input" type="text" placeholder=" " /> -->
+              <label class="float-label">Query</label>
+            </div>
 
-          <!-- <div class="input-item">
+            <!-- <div class="input-item">
         <input
           name="customer_name"
           type="text"
@@ -76,36 +78,37 @@ function success() {
       </div>
       <div class="input-item">
         <textarea name="message" v-model.lazy.trim="query" placeholder="query"></textarea>
-          </div>-->
-          <div class="button-container">
-            <button type="submit" class="submit" id="submitButton" @click="success()">
-              <span id="btnText">Submit</span>
-            </button>
+            </div>-->
+            <div class="button-container">
+              <button type="submit" class="submit" id="submitButton" @click="success()">
+                <span id="btnText">Submit</span>
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div id="confirmationContainer" class="confirmation hidden">
-          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
-            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
-          </svg>
-          <h3>Thank you!</h3>
-          <p>Your message has been recieved and we will be in touch as soon as possible.</p>
+          <div id="confirmationContainer" class="confirmation hidden">
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+              <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+              <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+            </svg>
+            <h3>Thank you!</h3>
+            <p>Your message has been recieved and we will be in touch as soon as possible.</p>
 
-          <!-- <div id="circleLoader" class="circle-loader">
+            <!-- <div id="circleLoader" class="circle-loader">
           <div id="checkmark" class="checkmark draw hidden"></div>
-          </div>-->
+            </div>-->
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<style >
+<style  >
 @import '../assets/css/input/float-label.css';
 
 .wrapper {
-  background-color: #ebf7fd;
+  /* background-color: #ebf7fd; */
 }
 .box {
   /* height: 100px; */

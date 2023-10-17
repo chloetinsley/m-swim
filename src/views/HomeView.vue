@@ -35,7 +35,7 @@
   text-align: center;
   /* flex-direction: column; */
   /* height: 60px; */
-  padding: 40px 10%;
+  padding: 40px 15%;
   /* width: 100%; */
   /* height: auto; */
 }

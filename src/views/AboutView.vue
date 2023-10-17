@@ -1,7 +1,7 @@
 
 <template>
   <div class="wrapper light-blue">
-    <h1>About M Swim</h1>
+    <h1 class="page-heading">About M Swim</h1>
 
     <div class="row">
       <div class="vertical-align left">
@@ -61,17 +61,7 @@
   </div>
 </template>
 
-<style>
-.wrapper {
-  flex-direction: column;
-  padding: 50px 10% 100px 10%;
-  color: #050a30;
-  /* text-shadow: 0px 1px 4px white; */
-}
-h1 {
-  font-weight: 600;
-  margin: 20px 0;
-}
+<style scoped>
 h2 {
   font-weight: normal;
   margin: 20px 0;
