@@ -15,17 +15,15 @@ function success() {
       <div class="box bubble-background">
         <div class>
           <div class="contact-conent">
-            <p>077777777777</p>
-            <p>email@email.com</p>
-            <p>
-              address line one
-              <br />address line two
-              <br />address line three
-              <br />
-            </p>
-            <p>
-              <b>Opening Times</b>
-            </p>
+            <a href="mailto:mswim@waterworld.co.uk">mswim@waterworld.co.uk</a>
+            <p>Follow us on our socials</p>
+            <img
+              alt="Vue logo"
+              style="background-color:#050a30; border-radius:100%;"
+              class
+              src="@/assets/images/footer-logos/facebook.png"
+              height="40"
+            />
           </div>
         </div>
         <!-- <img alt="Vue logo" class="logo" src="@/assets/images/bubble-background6.png" height="400" /> -->
@@ -48,6 +46,16 @@ function success() {
             <div class="float-label-content">
               <input class="float-input" type="number" name="customer_phone_number" placeholder=" " />
               <label class="float-label">Phone Number</label>
+            </div>
+
+            <div class="float-label-content">
+              <input
+                class="float-input"
+                type="number"
+                name="customer_age_of_swimmer"
+                placeholder=" "
+              />
+              <label class="float-label">Age Of Swimmer</label>
             </div>
 
             <div class="float-label-content">
@@ -114,7 +122,7 @@ function success() {
   /* height: 100px; */
   text-align: center;
   /* border: 1px solid black; */
-  padding: 20px;
+  /* padding: 20px; */
   margin: 20px;
   width: 100%;
 }
@@ -123,7 +131,7 @@ function success() {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 350px; */
+  height: 350px;
   padding: 20px;
   background-size: 350px;
   opacity: 0.75;
@@ -136,6 +144,13 @@ function success() {
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   border-radius: 25px;
   padding: 25px;
+}
+
+@media only screen and (max-width: 640px) {
+  .row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 /* new stuff

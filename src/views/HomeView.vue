@@ -179,10 +179,4 @@
     font-size: 1em;
   }
 }
-@media only screen and (max-width: 420px) {
-  .location-block {
-    /* width: 100%; */
-    margin-bottom: 30px;
-  }
-}
 </style>

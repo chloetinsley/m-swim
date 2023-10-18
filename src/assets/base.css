@@ -74,7 +74,11 @@ main {
     flex-direction: column;
     padding-bottom: 60px;
     /* margin-bottom: 60px; */
-  }}
+  }
+  .wrapper {  
+     padding: 50px 7% 100px 7%; 
+  }
+}
 .wrapper {  
   display: flex;
   align-items: stretch;
