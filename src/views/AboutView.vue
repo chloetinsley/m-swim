@@ -73,18 +73,6 @@ h2 {
 .heading:not(:first-of-type) {
   margin-top: 1.5em;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
-  padding: 20px 0 70px 0;
-  /* margin-bottom: 70px; */
-  /* border-bottom: 3px dashed #050a30; */
-}
-.vertical-align {
-  align-self: center;
-}
 .block {
   margin: 25px;
   padding: 25px;
@@ -163,11 +151,6 @@ p {
 }
 
 @media only screen and (max-width: 640px) {
-  .row {
-    flex-direction: column;
-    padding-bottom: 60px;
-    margin-bottom: 60px;
-  }
   .left {
     width: 100%;
     padding-bottom: 0;

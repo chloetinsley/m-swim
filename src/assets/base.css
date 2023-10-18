@@ -69,6 +69,12 @@ main {
   /* margin-bottom: 70px; */
   /* border-bottom: 3px dashed #050a30; */
 }
+@media only screen and (max-width: 640px) {
+  .row {
+    flex-direction: column;
+    padding-bottom: 60px;
+    /* margin-bottom: 60px; */
+  }}
 .wrapper {  
   display: flex;
   align-items: stretch;
@@ -83,6 +89,12 @@ main {
 .light-grey {
   background-color: #f4f6fc;
 }
+.vertical-align {
+  align-self: center;
+}
+/* .mid-blue {
+  padding: 20px 60px;
+} */
 .page-heading {
   -webkit-text-decoration: #009fe3 double underline;
   text-decoration: #009fe3 double underline;

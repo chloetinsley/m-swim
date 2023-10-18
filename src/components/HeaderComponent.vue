@@ -191,7 +191,7 @@ a:hover::before {
   .nav-items {
     text-align: center;
     width: 100%;
-    background-color: #009fe3;
+    background-color: #006997;
   }
   .burger,
   .cross {
