@@ -67,6 +67,9 @@
         </div>
       </div>
     </div>
+    <div class="bubble-background light-blue lesson">
+      <button>Ready to Enquire?</button>
+    </div>
   </div>
 </template>
 
@@ -162,6 +165,36 @@
   background-position: center center;
 }
 
+.bubble-background {
+  background-image: url('../assets/images/bubble-background8.png');
+  background-position: top right;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 170px;
+  padding: 20px;
+  background-size: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bubble-background button {
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background: none;
+  background-color: #009fe3;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* border: 0.5px solid #009fe3; */
+  border: none;
+}
+
+.bubble-background button:hover {
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+  transform: scale(1.02);
+}
 @media only screen and (max-width: 864px) {
   .image-slice {
     /* height: 40vh; */

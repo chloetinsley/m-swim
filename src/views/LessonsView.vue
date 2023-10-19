@@ -4,7 +4,7 @@
 <template>
   <div class="wrapper light-blue">
     <h1 class="page-heading">Our Swimming Lessons</h1>
-    <div class="row">
+    <div class="row middle">
       <p>Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum.</p>
     </div>
     <div class="row">
@@ -36,15 +36,17 @@
         </p>
       </div>
     </div>
-    <p class="heading">A Journey Through Excellence</p>
+    <div class="middle">
+      <p class="heading">A Journey Through Excellence</p>
 
-    <p>Our Swim England curriculum guarantees a structured and rewarding learning experience, ensuring you master essential water skills, build confidence, and become a safe, proficient swimmer.</p>
+      <p>Our Swim England curriculum guarantees a structured and rewarding learning experience, ensuring you master essential water skills, build confidence, and become a safe, proficient swimmer.</p>
 
-    <p class="heading">Join Us in the Pool</p>
+      <p class="heading">Join Us in the Pool</p>
 
-    <p>No matter your age or experience level, M Swim invites you to dive in and explore the wonderful world of swimming. Our lessons cater to beginners taking their first strokes, experienced swimmers perfecting their technique, and everyone in between.</p>
+      <p>No matter your age or experience level, M Swim invites you to dive in and explore the wonderful world of swimming. Our lessons cater to beginners taking their first strokes, experienced swimmers perfecting their technique, and everyone in between.</p>
 
-    <p>Embark on your aquatic journey with M Swim and unlock the countless physical, mental, and emotional benefits that swimming offers.</p>
+      <p>Embark on your aquatic journey with M Swim and unlock the countless physical, mental, and emotional benefits that swimming offers.</p>
+    </div>
   </div>
 </template>
 
@@ -78,6 +80,9 @@ p {
 }
 .row {
   padding: 10px 0 0 0;
+}
+.middle {
+  text-align: center;
 }
 @media only screen and (max-width: 640px) {
   .row {

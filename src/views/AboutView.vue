@@ -55,8 +55,9 @@
     </div>
 
     <!-- <div class="left"> -->
-    <p class="heading">M Swim..</p>
-    <p>where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
+    <p
+      class="row vertical-align"
+    >M Swim.. where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
     <!-- </div> -->
   </div>
 </template>
@@ -140,11 +141,12 @@ h2 {
   display: flex;
   align-self: center;
   width: 35%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  overflow: hidden;
 }
 .row img {
   width: 100%;
-  border-radius: 20px;
-  box-shadow: 0px 1px 4px white;
 }
 p {
   margin: 0.75em 0;

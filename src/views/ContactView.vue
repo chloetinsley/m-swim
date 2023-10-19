@@ -1,11 +1,28 @@
 <script setup>
-function success() {
-  var contact = document.getElementById('contactForm')
-  contact.classList.toggle('hidden')
+import emailjs from '@emailjs/browser'
 
-  var spinner = document.getElementById('confirmationContainer')
-  spinner.classList.toggle('hidden')
-  console.log('SUCCESS!', result.text)
+function success() {
+  var btn = document.getElementById('submitButton')
+  btn.text = ''
+  btn.classList.toggle('button--loading')
+  btn.setAttribute('disabled', true)
+
+  var btnText = document.getElementById('btnText')
+  btnText.classList.toggle('no-opacity')
+
+  emailjs.sendForm('service_kqm07xm', 'template_gf2boni', '#form', 'HJmKkgF-p3H3PrzLe').then(
+    result => {
+      var contact = document.getElementById('contactForm')
+      contact.classList.toggle('hidden')
+
+      var spinner = document.getElementById('confirmationContainer')
+      spinner.classList.toggle('hidden')
+      console.log('SUCCESS!', result.text)
+    },
+    error => {
+      console.log('FAILED...', error.text)
+    }
+  )
 }
 </script>
 <template>
@@ -15,56 +32,63 @@ function success() {
       <div class="box bubble-background">
         <div class>
           <div class="contact-conent">
+            <p>or send us an email</p>
             <a href="mailto:mswim@waterworld.co.uk">mswim@waterworld.co.uk</a>
-            <p>Follow us on our socials</p>
+            <!-- <p>Follow us on our socials</p>
             <img
               alt="Vue logo"
               style="background-color:#050a30; border-radius:100%;"
               class
               src="@/assets/images/footer-logos/facebook.png"
               height="40"
-            />
+            />-->
           </div>
         </div>
         <!-- <img alt="Vue logo" class="logo" src="@/assets/images/bubble-background6.png" height="400" /> -->
       </div>
       <div class="box">
         <div class="contact-form">
-          <div id="contactForm">
-            <h2>How can we help you?</h2>
-            <p>We aim to get back to you within 48 working hours</p>
-            <div class="float-label-content">
-              <input class="float-input" type="text" name="customer_name" placeholder=" " />
-              <label class="float-label">Name</label>
-            </div>
+          <form id="form">
+            <div id="contactForm">
+              <h2>How can we help you?</h2>
+              <p>We aim to get back to you within 48 working hours</p>
+              <div class="float-label-content">
+                <input class="float-input" type="text" name="customer_name" placeholder=" " />
+                <label class="float-label">Name</label>
+              </div>
 
-            <div class="float-label-content">
-              <input class="float-input" type="email" name="customer_email" placeholder=" " />
-              <label class="float-label">Email</label>
-            </div>
+              <div class="float-label-content">
+                <input class="float-input" type="email" name="customer_email" placeholder=" " />
+                <label class="float-label">Email</label>
+              </div>
 
-            <div class="float-label-content">
-              <input class="float-input" type="number" name="customer_phone_number" placeholder=" " />
-              <label class="float-label">Phone Number</label>
-            </div>
+              <div class="float-label-content">
+                <input
+                  class="float-input"
+                  type="number"
+                  name="customer_phone_number"
+                  placeholder=" "
+                />
+                <label class="float-label">Phone Number</label>
+              </div>
 
-            <div class="float-label-content">
-              <input
-                class="float-input"
-                type="number"
-                name="customer_age_of_swimmer"
-                placeholder=" "
-              />
-              <label class="float-label">Age Of Swimmer</label>
-            </div>
+              <div class="float-label-content">
+                <input
+                  class="float-input"
+                  type="number"
+                  name="customer_age_of_swimmer"
+                  placeholder=" "
+                />
+                <label class="float-label">Age Of Swimmer</label>
+              </div>
 
-            <div class="float-label-content">
-              <textarea class="float-input" name="message" placeholder=" "></textarea>
-              <!-- <input class="float-input" type="text" placeholder=" " /> -->
-              <label class="float-label">Query</label>
-            </div>
+              <div class="float-label-content">
+                <textarea class="float-input" name="message" placeholder=" "></textarea>
+                <!-- <input class="float-input" type="text" placeholder=" " /> -->
+                <label class="float-label">Query</label>
+              </div>
 
-            <!-- <div class="input-item">
+              <!-- <div class="input-item">
         <input
           name="customer_name"
           type="text"
@@ -86,13 +110,14 @@ function success() {
       </div>
       <div class="input-item">
         <textarea name="message" v-model.lazy.trim="query" placeholder="query"></textarea>
-            </div>-->
-            <div class="button-container">
-              <button type="submit" class="submit" id="submitButton" @click="success()">
-                <span id="btnText">Submit</span>
-              </button>
+              </div>-->
+              <div class="button-container">
+                <button type="submit" class="submit" id="submitButton" @click="success()">
+                  <span id="btnText">Submit</span>
+                </button>
+              </div>
             </div>
-          </div>
+          </form>
 
           <div id="confirmationContainer" class="confirmation hidden">
             <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
@@ -127,14 +152,27 @@ function success() {
   width: 100%;
 }
 .bubble-background {
-  background-image: url('../assets/images/bubble-background8.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/images/learn-to-swim.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
-  padding: 20px;
-  background-size: 350px;
-  opacity: 0.75;
+  border-radius: 20px;
+  height: 420px;
+  align-self: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  margin: 0 50px 0 0;
+  font-size: 1.8em;
+  text-shadow: 0px 1px 4px #050a30;
+  color: white;
+
+  /* background-size: 350px; */
+  /* opacity: 0.75; */
+}
+.bubble-background a {
+  color: white;
 }
 .contact-form {
   /* width: 100%;
@@ -146,13 +184,22 @@ function success() {
   padding: 25px;
 }
 
-@media only screen and (max-width: 640px) {
-  .row.contact {
+@media only screen and (max-width: 864px) {
+  .row {
     flex-direction: column-reverse;
     align-items: center;
   }
+  .bubble-background {
+    margin: 20px;
+  }
 }
 
+@media only screen and (max-width: 640px) {
+  .bubble-background {
+    height: 300px;
+    font-size: 1.2em;
+  }
+}
 /* new stuff
  */
 
@@ -165,7 +212,7 @@ h2 {
 .contact {
   /* border: 1px solid red; */
   /* width: 100%; */
-  padding: 0 30px 30px 30px;
+  /* padding: 0 30px 30px 30px; */
 }
 .input-item {
   width: 100%;
