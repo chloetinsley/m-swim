@@ -158,10 +158,7 @@ p {
   .image-container {
     width: 100%;
   }
-  h1 {
-    margin: 0;
-    font-size: 1.5em;
-  }
+
   h2 {
     font-size: 1.2em;
   }

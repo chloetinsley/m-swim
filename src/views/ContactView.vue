@@ -11,7 +11,7 @@ function success() {
 <template>
   <div class="wrapper light-blue">
     <h1 class="page-heading">Contact</h1>
-    <div class="row">
+    <div class="row contact">
       <div class="box bubble-background">
         <div class>
           <div class="contact-conent">
@@ -147,7 +147,7 @@ function success() {
 }
 
 @media only screen and (max-width: 640px) {
-  .row {
+  .row.contact {
     flex-direction: column-reverse;
     align-items: center;
   }

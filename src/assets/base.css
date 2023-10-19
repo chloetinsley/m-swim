@@ -65,15 +65,19 @@ main {
   flex-direction: row;
   align-items: stretch;
   justify-content: space-between;
-  padding: 20px 0 70px 0;
+  padding: 10px 0 20px 0;
   /* margin-bottom: 70px; */
   /* border-bottom: 3px dashed #050a30; */
 }
 @media only screen and (max-width: 640px) {
   .row {
     flex-direction: column;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     /* margin-bottom: 60px; */
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
   }
   .wrapper {  
      padding: 50px 7% 100px 7%; 
@@ -100,6 +104,7 @@ main {
   padding: 20px 60px;
 } */
 .page-heading {
+  margin:0.2em 0 1em 0;
   -webkit-text-decoration: #009fe3 double underline;
   text-decoration: #009fe3 double underline;
 }

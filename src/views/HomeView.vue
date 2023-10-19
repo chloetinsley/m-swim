@@ -26,37 +26,43 @@
         <div class="location-block">
           <div class="img one"></div>
           <div class="location-info">
-            <p class="head">Waterworld leisure resort</p>
-            <p>
-              Festival Park
-              <br />Stoke on Trent
-              <br />Staffordshire
-              <br />ST1 5PU
-            </p>
+            <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7">
+              <p class="head">Waterworld leisure resort</p>
+              <p>
+                Festival Park
+                <br />Stoke on Trent
+                <br />Staffordshire
+                <br />ST1 5PU
+              </p>
+            </a>
           </div>
         </div>
         <div class="location-block">
           <div class="img two"></div>
           <div class="location-info">
-            <p class="head">M Club Spa & Fitness - Newcastle</p>
-            <p>
-              Parklands
-              <br />Newcastle Road
-              <br />Stoke-on-Trent
-              <br />ST4 6NW
-            </p>
+            <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7">
+              <p class="head">M Club Spa & Fitness - Newcastle</p>
+              <p>
+                Parklands
+                <br />Newcastle Road
+                <br />Stoke-on-Trent
+                <br />ST4 6NW
+              </p>
+            </a>
           </div>
         </div>
         <div class="location-block">
           <div class="img three"></div>
           <div class="location-info">
-            <p class="head">M Club Spa & Fitness - Hanley</p>
-            <p>
-              Waterworld Leisure Resort
-              <br />Festival Way
-              <br />Stoke-on-Trent
-              <br />ST1 5PU
-            </p>
+            <a href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9">
+              <p class="head">M Club Spa & Fitness - Hanley</p>
+              <p>
+                Waterworld Leisure Resort
+                <br />Festival Way
+                <br />Stoke-on-Trent
+                <br />ST1 5PU
+              </p>
+            </a>
           </div>
         </div>
       </div>
@@ -125,7 +131,11 @@
   background-size: cover;
   /* border-bottom: 5px wave white; */
 }
-.img {
+.location-block a {
+  color: #050a30;
+  text-decoration: none;
+}
+.location-block .img {
   --mask: radial-gradient(16.8px at 50% calc(100% - 23.5px), #000 99%, #0000 101%) calc(50% - 20px)
       0/40px 100%,
     radial-gradient(16.8px at 50% calc(100% + 13.5px), #0000 99%, #000 101%) 50% calc(100% - 10px) /

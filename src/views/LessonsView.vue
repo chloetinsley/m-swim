@@ -4,7 +4,7 @@
 <template>
   <div class="wrapper light-blue">
     <h1 class="page-heading">Our Swimming Lessons</h1>
-    <div>
+    <div class="row">
       <p>Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum.</p>
     </div>
     <div class="row">
