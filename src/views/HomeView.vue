@@ -67,28 +67,23 @@
         </div>
       </div>
     </div>
-    <div class="bubble-background light-blue lesson">
-      <button>Ready to Enquire?</button>
+    <div class="bubble-background light-blue">
+      <RouterLink to="/contact">
+        <button>Ready to Enquire?</button>
+      </RouterLink>
     </div>
   </div>
 </template>
 
 <style scoped>
 .wrapper {
-  /* display: flex;
-  align-items: stretch; */
   text-align: center;
-  /* flex-direction: column; */
-  /* height: 60px; */
   padding: 40px 15%;
-  /* width: 100%; */
-  /* height: auto; */
 }
 .wrapper h3 {
   text-shadow: 0px 1px 4px #ebf7fd;
 }
 .image-slice {
-  /* height: 400px; */
   display: flex;
   align-items: center;
   align-self: center;
@@ -104,9 +99,6 @@
   text-align: center;
   opacity: 90%;
   text-shadow: 0px 1px 4px #050a30;
-
-  /* text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8), -3px 0px 7px rgba(81, 67, 21, 0.8),
-    0px 4px 7px rgba(81, 67, 21, 0.8); */
 }
 .image-slice h1 {
   font-size: 3em;
@@ -119,20 +111,16 @@
 }
 
 .location-block {
-  /* width: 300px; */
   width: 30%;
   border-radius: 25px;
   overflow: hidden;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  /* box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7); */
-  /* box-shadow: 0px 1px 4px #050a30; */
 }
 .location-block .img {
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-bottom: 5px wave white; */
 }
 .location-block a {
   color: #050a30;
@@ -179,8 +167,8 @@
 }
 .bubble-background button {
   color: white;
-  font-size: 1.2em;
-  padding: 15px 30px;
+  font-size: 1em;
+  padding: 13px 28px;
   border-radius: 25px;
   background: none;
   background-color: #009fe3;

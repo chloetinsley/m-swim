@@ -29,22 +29,13 @@ function success() {
   <div class="wrapper light-blue">
     <h1 class="page-heading">Contact</h1>
     <div class="row contact">
-      <div class="box bubble-background">
+      <div class="box right-background">
         <div class>
           <div class="contact-conent">
             <p>or send us an email</p>
             <a href="mailto:mswim@waterworld.co.uk">mswim@waterworld.co.uk</a>
-            <!-- <p>Follow us on our socials</p>
-            <img
-              alt="Vue logo"
-              style="background-color:#050a30; border-radius:100%;"
-              class
-              src="@/assets/images/footer-logos/facebook.png"
-              height="40"
-            />-->
           </div>
         </div>
-        <!-- <img alt="Vue logo" class="logo" src="@/assets/images/bubble-background6.png" height="400" /> -->
       </div>
       <div class="box">
         <div class="contact-form">
@@ -88,29 +79,6 @@ function success() {
                 <label class="float-label">Query</label>
               </div>
 
-              <!-- <div class="input-item">
-        <input
-          name="customer_name"
-          type="text"
-          v-model.lazy.trim="name"
-          v-on:keyup.enter="test"
-          placeholder="name"
-        />
-      </div>
-      <div class="input-item">
-        <input name="customer_email" type="email" v-model.lazy.trim="email" placeholder="email" />
-      </div>
-      <div class="input-item">
-        <input
-          name="customer_phone_number"
-          type="number"
-          v-model.lazy.number="number"
-          placeholder="number"
-        />
-      </div>
-      <div class="input-item">
-        <textarea name="message" v-model.lazy.trim="query" placeholder="query"></textarea>
-              </div>-->
               <div class="button-container">
                 <button type="submit" class="submit" id="submitButton" @click="success()">
                   <span id="btnText">Submit</span>
@@ -126,10 +94,6 @@ function success() {
             </svg>
             <h3>Thank you!</h3>
             <p>Your message has been recieved and we will be in touch as soon as possible.</p>
-
-            <!-- <div id="circleLoader" class="circle-loader">
-          <div id="checkmark" class="checkmark draw hidden"></div>
-            </div>-->
           </div>
         </div>
       </div>
@@ -139,19 +103,12 @@ function success() {
 
 <style  >
 @import '../assets/css/input/float-label.css';
-
-.wrapper {
-  /* background-color: #ebf7fd; */
-}
 .box {
-  /* height: 100px; */
   text-align: center;
-  /* border: 1px solid black; */
-  /* padding: 20px; */
   margin: 20px;
   width: 100%;
 }
-.bubble-background {
+.right-background {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,18 +124,12 @@ function success() {
   font-size: 1.8em;
   text-shadow: 0px 1px 4px #050a30;
   color: white;
-
-  /* background-size: 350px; */
-  /* opacity: 0.75; */
 }
-.bubble-background a {
+.right-background a {
   color: white;
 }
 .contact-form {
-  /* width: 100%;
-  height: 100%; */
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   border-radius: 25px;
   padding: 25px;
@@ -189,30 +140,23 @@ function success() {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .bubble-background {
+  .right-background {
     margin: 20px;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .bubble-background {
+  .right-background {
     height: 300px;
     font-size: 1.2em;
   }
 }
-/* new stuff
- */
 
 h2 {
   margin: 0;
 }
 .no-opacity {
   opacity: 0;
-}
-.contact {
-  /* border: 1px solid red; */
-  /* width: 100%; */
-  /* padding: 0 30px 30px 30px; */
 }
 .input-item {
   width: 100%;
@@ -235,11 +179,6 @@ textarea {
 }
 .submit {
   border: none;
-  /* orange (to bright imo) */
-  /* background-color: #e87a0c; */
-  /* mint  */
-  /* background-color: #3a6963;*/
-  /* diff orange */
   background-color: #006997;
   padding: 6px 15px;
   color: #ebebe9;
@@ -247,10 +186,6 @@ textarea {
   font-size: 16px;
   cursor: pointer;
   position: relative;
-  /* display: flex;
-
-  align-self: right; */
-  /* float: right; */
 }
 
 .input-group {
@@ -265,14 +200,12 @@ textarea {
 .input-group-append {
   display: flex;
   align-items: center;
-  /*   margin-left:-1px; */
 }
 .input-group-text {
   display: flex;
   align-items: center;
   font-weight: 400;
   height: 34px;
-  /* color: #323840; */
   padding: 0 5px 0 20px;
   font-size: 12px;
   text-align: center;
@@ -281,7 +214,6 @@ textarea {
   border-radius: 4px 0 0 4px;
   border-right: none;
 }
-/* button */
 .button--loading::before {
   content: '';
   position: absolute;
@@ -385,8 +317,8 @@ textarea {
  */
 
 .checkmark__circle {
-  stroke-dasharray: 216; /* ORIGINALLY 166px */
-  stroke-dashoffset: 216; /* ORIGINALLY 166px */
+  stroke-dasharray: 216;
+  stroke-dashoffset: 216;
   stroke-width: 2;
   stroke-miterlimit: 10;
   stroke: #7ac142;
@@ -395,8 +327,8 @@ textarea {
 }
 
 .checkmark {
-  width: 40px; /* ORIGINALLY 56px */
-  height: 40px; /* ORIGINALLY 56px */
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: block;
   stroke-width: 2;

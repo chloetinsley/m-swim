@@ -56,9 +56,6 @@ function toggleNavIcon() {
 </template>
 
 <style scoped>
-/* .router-link-active {
-  text-decoration: underline !important;
-} */
 .header {
   background-color: #050a30;
   flex-direction: row;

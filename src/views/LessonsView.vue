@@ -4,7 +4,7 @@
 <template>
   <div class="wrapper light-blue">
     <h1 class="page-heading">Our Swimming Lessons</h1>
-    <div class="row middle">
+    <div class="row">
       <p>Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum.</p>
     </div>
     <div class="row">
@@ -17,11 +17,10 @@
       </div>
 
       <div class="lesson">
-        <div class="image" style="background-color:black">
-          <!-- <img src="../assets/images/lessons/baby.png" /> -->
+        <div class="image">
+          <img src="../assets/images/lessons/group.jpeg" />
         </div>
         <p class="heading">Group Sessions</p>
-
         <p>
           <b>Learn & Play:</b> Our group sessions are perfect for young beginners, teens, and adults. Here, you'll progress through various skill levels while enjoying the camaraderie of fellow swimmers. Our certified instructors create an encouraging and fun environment for you to flourish.
         </p>
