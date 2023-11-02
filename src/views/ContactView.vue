@@ -10,7 +10,7 @@ function success() {
   var btnText = document.getElementById('btnText')
   btnText.classList.toggle('no-opacity')
 
-  emailjs.sendForm('service_kqm07xm', 'template_gf2boni', '#form', 'HJmKkgF-p3H3PrzLe').then(
+  emailjs.sendForm('service_7yhj3ze', 'template_aiz3h17', '#form', 'Fj3QBZRfI9mIIVnJ2').then(
     result => {
       var contact = document.getElementById('contactForm')
       contact.classList.toggle('hidden')
@@ -39,18 +39,36 @@ function success() {
       </div>
       <div class="box">
         <div class="contact-form">
-          <form id="form">
+          <form id="form" @submit.prevent="success">
             <div id="contactForm">
               <h2>How can we help you?</h2>
               <p>We aim to get back to you within 48 working hours</p>
               <div class="float-label-content">
-                <input class="float-input" type="text" name="customer_name" placeholder=" " />
-                <label class="float-label">Name</label>
+                <input
+                  class="float-input"
+                  type="text"
+                  name="customer_name"
+                  placeholder=" "
+                  required
+                />
+                <label class="float-label">
+                  Name
+                  <span class="required">*</span>
+                </label>
               </div>
 
               <div class="float-label-content">
-                <input class="float-input" type="email" name="customer_email" placeholder=" " />
-                <label class="float-label">Email</label>
+                <input
+                  class="float-input"
+                  type="email"
+                  name="customer_email"
+                  placeholder=" "
+                  required
+                />
+                <label class="float-label">
+                  Email
+                  <span class="required">*</span>
+                </label>
               </div>
 
               <div class="float-label-content">
@@ -59,8 +77,12 @@ function success() {
                   type="number"
                   name="customer_phone_number"
                   placeholder=" "
+                  required
                 />
-                <label class="float-label">Phone Number</label>
+                <label class="float-label">
+                  Phone Number
+                  <span class="required">*</span>
+                </label>
               </div>
 
               <div class="float-label-content">
@@ -75,12 +97,11 @@ function success() {
 
               <div class="float-label-content">
                 <textarea class="float-input" name="message" placeholder=" "></textarea>
-                <!-- <input class="float-input" type="text" placeholder=" " /> -->
                 <label class="float-label">Query</label>
               </div>
 
               <div class="button-container">
-                <button type="submit" class="submit" id="submitButton" @click="success()">
+                <button type="submit" class="submit" id="submitButton">
                   <span id="btnText">Submit</span>
                 </button>
               </div>
@@ -163,11 +184,12 @@ h2 {
 }
 input {
   width: 100%;
-
   padding: 10px 0;
   margin: 5px 0;
 }
-
+.required {
+  color: #e34234;
+}
 textarea {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding-top: 10px !important;
