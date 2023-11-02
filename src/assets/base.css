@@ -64,18 +64,7 @@ main {
   justify-content: space-between;
   padding: 10px 0 20px 0;
 }
-@media only screen and (max-width: 640px) {
-  .row {
-    flex-direction: column;
-  }
-  h1 {
-    margin: 0;
-    font-size: 1.5em;
-  }
-  .wrapper {  
-     padding: 50px 7% 100px 7%; 
-  }
-}
+
 .wrapper {  
   display: flex;
   align-items: stretch;
@@ -97,4 +86,24 @@ main {
   margin:0.2em 0 1em 0;
   /* -webkit-text-decoration: #009fe3 double underline;
   text-decoration: #009fe3 double underline; */
+}
+.middle {
+  text-align: center;
+}
+@media only screen and (max-width: 640px) {
+  .row {
+    flex-direction: column;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .wrapper {  
+     padding: 30px 8% 100px 8%; 
+  }
+  .page-heading {
+    margin:0.2em 0 0.5em 0;
+    /* -webkit-text-decoration: #009fe3 double underline;
+    text-decoration: #009fe3 double underline; */
+  }
 }

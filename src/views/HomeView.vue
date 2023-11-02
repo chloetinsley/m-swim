@@ -69,7 +69,6 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       </div>
     </div>
     <ReadyToEnquireComponent />
-    <!-- comp here -->
   </div>
 </template>
 

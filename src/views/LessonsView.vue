@@ -84,15 +84,16 @@ p {
 .row {
   padding: 10px 0 0 0;
 }
-.middle {
-  text-align: center;
+.wrapper {
+  padding: 30px 8% 70px 8%;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 864px) {
   .row {
+    flex-direction: column;
     align-items: center;
   }
   .lesson {
-    width: 100%;
+    width: 85%;
     margin-bottom: 30px;
   }
 }

@@ -157,9 +157,10 @@ function success() {
 }
 
 @media only screen and (max-width: 864px) {
-  .row {
+  .row.contact {
     flex-direction: column-reverse;
     align-items: center;
+    padding: 0;
   }
   .right-background {
     margin: 20px;
@@ -173,7 +174,7 @@ function success() {
   }
 }
 
-h2 {
+.contact-form h2 {
   margin: 0;
 }
 .no-opacity {

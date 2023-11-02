@@ -55,7 +55,7 @@
     </div>
 
     <p
-      class="row vertical-align"
+      class="row middle"
     >M Swim, where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
   </div>
 </template>
@@ -80,10 +80,7 @@ h2 {
   text-align: center;
 }
 .block {
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 18px 10px;
   box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
   transform: rotate(-6deg);
   min-width: 240px;
@@ -110,6 +107,12 @@ h2 {
 .block .heading {
   font-size: 1.3rem;
 }
+p {
+  margin: 0;
+}
+.block p {
+  margin: 0.75em 0;
+}
 .left {
   width: 55%;
   display: flex;
@@ -127,8 +130,9 @@ h2 {
 .row img {
   width: 100%;
 }
-p {
-  margin: 0.75em 0;
+ul {
+  padding-left: 20px;
+  list-style: circle;
 }
 
 @media only screen and (max-width: 640px) {
@@ -138,10 +142,15 @@ p {
   }
   .image-container {
     width: 100%;
+    margin-top: 10px;
   }
-
+  .block {
+    padding: 18px 15px;
+    margin: 28px 10px;
+  }
   h2 {
     font-size: 1.2em;
+    margin: 20px 0 0 0;
   }
   .wrapper {
     padding-bottom: 50px;

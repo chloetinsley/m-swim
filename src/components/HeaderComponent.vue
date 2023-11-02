@@ -122,7 +122,7 @@ a:hover::before {
 
 @media only screen and (max-width: 640px) {
   header {
-    max-height: 105px;
+    height: 105px;
   }
   .header {
     flex-direction: column;
@@ -200,11 +200,14 @@ a:hover::before {
   }
 }
 @media only screen and (max-width: 420px) {
+  header {
+    height: 100px;
+  }
   .logo {
     max-height: 50px;
   }
   .top-content {
-    padding: 30px;
+    padding: 20px 30px;
   }
 }
 </style>
