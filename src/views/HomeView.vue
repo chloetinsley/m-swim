@@ -8,20 +8,8 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       <h1>Welcome to M Swim</h1>
       <h2>where the journey to aquatic excellence begins.</h2>
     </div>
+
     <div class="wrapper light-blue">
-      <p>
-        Nestled within the esteemed M Club Spa & Fitness, we are more than just a swimming school;
-        we are a beacon of water wisdom and wellness.
-        <br />
-        <br />Our mission is to empower individuals of all ages with the invaluable life skill of swimming.
-        With a team of dedicated instructors, state-of-the-art facilities, and a commitment to excellence,
-        we invite you to join us in the water.
-        <br />
-        <br />Dive into a world of aquatic discovery, build confidence,
-        and embrace the transformative power of swimming with M Swim.
-      </p>
-    </div>
-    <div class="wrapper light-grey">
       <h3>Locations</h3>
       <div class="row">
         <div class="location-block">
@@ -67,16 +55,28 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
           </div>
         </div>
       </div>
-      <div class="wrapper partner light-grey">
-        <p>
-          <b>M Swim</b> is an official
-          <b>STA partner</b> and an accredited
-          <b>STA Swim Academy</b>.
-        </p>
-        <img src="../assets/images/sta/sta-logo.png" />
-      </div>
     </div>
-
+    <div class="wrapper light-grey">
+      <p>
+        Nestled within the esteemed M Club Spa & Fitness, we are more than just a swimming school;
+        we are a beacon of water wisdom and wellness.
+        <br />
+        <br />Our mission is to empower individuals of all ages with the invaluable life skill of swimming.
+        With a team of dedicated instructors, state-of-the-art facilities, and a commitment to excellence,
+        we invite you to join us in the water.
+        <br />
+        <br />Dive into a world of aquatic discovery, build confidence,
+        and embrace the transformative power of swimming with M Swim.
+      </p>
+    </div>
+    <div class="wrapper partner light-blue">
+      <p>
+        <b>M Swim</b> is an official
+        <b>STA partner</b> and an accredited
+        <b>STA Swim Academy</b>.
+      </p>
+      <img src="../assets/images/sta/sta-logo.png" />
+    </div>
     <ReadyToEnquireComponent />
   </div>
 </template>
