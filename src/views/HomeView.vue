@@ -186,7 +186,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
     margin-bottom: 30px;
   }
   .image-slice {
-    height: 30vh;
+    height: 35vh;
   }
   .image-slice h1 {
     font-size: 2em;
