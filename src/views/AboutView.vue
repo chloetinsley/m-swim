@@ -12,9 +12,17 @@
         </p>
         <h2>Based in 3 locations accross Staffordshire</h2>
         <ul>
-          <li>Waterworld leisure resort</li>
-          <li>M Club Spa & Fitness in Newcastle</li>
-          <li>M Club Spa & Fitness in Hanley</li>
+          <li>
+            <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7">Waterworld leisure resort</a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7">M Club Spa & Fitness in Newcastle</a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9">M Club Spa & Fitness in Hanley</a>
+          </li>
         </ul>
       </div>
       <div class="image-container">
@@ -69,6 +77,35 @@ h2 {
   margin-top: 0;
   font-size: 1.2em;
 }
+a {
+  color: #050a30;
+  /* text-decoration: none; */
+}
+/* frtyu */
+a,
+a:visited,
+a:hover,
+a:active {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  transition: 0.5s color ease;
+  text-decoration: none;
+  color: #81b3d2;
+  /* font-size: 2.5em; */
+}
+a:hover {
+  color: #d73444;
+}
+a:before,
+a.after:after {
+  content: '';
+  transition: 0.5s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+/* lygu */
 .heading:not(:first-of-type) {
   margin-top: 1.5em;
 }
