@@ -75,11 +75,13 @@ p {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.lesson:first-of-type {
-  margin-left: 5px;
-}
-.lesson:last-of-type {
-  margin-right: 5px;
+@media only screen and (min-width: 864px) {
+  .lesson:first-of-type {
+    margin-left: 5px;
+  }
+  .lesson:last-of-type {
+    margin-right: 5px;
+  }
 }
 .lesson .image {
   margin: 1em auto 0 auto;
