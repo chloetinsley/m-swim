@@ -62,7 +62,7 @@ function toggleNavIcon() {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 22px 50px;
 }
 .logo {
   max-height: 60px;
@@ -71,6 +71,9 @@ function toggleNavIcon() {
   display: flex;
   align-self: center;
   flex: 1;
+}
+.logo-container a {
+  display: flex;
 }
 .nav-links {
   display: flex;
@@ -116,7 +119,7 @@ a:hover::before {
   margin-left: auto;
   background-repeat: no-repeat;
   background-size: 25px;
-  padding: 30px;
+  padding: 30px 15px;
   display: none;
 }
 
@@ -146,6 +149,7 @@ a:hover::before {
   }
   .nav-items a {
     position: relative;
+    text-shadow: none;
   }
   .nav-links:not(.toggle) {
     animation: fadein 0.5s linear;
@@ -194,7 +198,7 @@ a:hover::before {
     display: block;
   }
   .nav-links a {
-    padding: 25px 0;
+    padding: 22px 0;
     margin: 0;
     border-bottom: 0.5px solid #bbe3fa;
   }
