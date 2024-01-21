@@ -13,9 +13,9 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       <h3>Locations</h3>
       <div class="row">
         <div class="location-block">
-          <div class="img one"></div>
-          <div class="location-info">
-            <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7">
+          <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7" target="_blank">
+            <div class="img one"></div>
+            <div class="location-info">
               <p class="head">Waterworld leisure resort</p>
               <p>
                 Festival Park
@@ -23,13 +23,13 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
                 <br />Staffordshire
                 <br />ST1 5PU
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="location-block">
-          <div class="img two"></div>
-          <div class="location-info">
-            <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7">
+          <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7" target="_blank">
+            <div class="img two"></div>
+            <div class="location-info">
               <p class="head">M Club Spa & Fitness - Newcastle</p>
               <p>
                 Parklands
@@ -37,13 +37,13 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
                 <br />Stoke-on-Trent
                 <br />ST4 6NW
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="location-block">
-          <div class="img three"></div>
-          <div class="location-info">
-            <a href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9">
+          <a href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9" target="_blank">
+            <div class="img three"></div>
+            <div class="location-info">
               <p class="head">M Club Spa & Fitness - Hanley</p>
               <p>
                 Waterworld Leisure Resort
@@ -51,8 +51,8 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
                 <br />Stoke-on-Trent
                 <br />ST1 5PU
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -88,6 +88,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 }
 .wrapper h3 {
   text-shadow: 0px 1px 4px #ebf7fd;
+  padding-bottom: 15px;
 }
 .image-slice {
   display: flex;
@@ -169,11 +170,11 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 
 @media only screen and (max-width: 864px) {
   .image-slice {
-    /* height: 40vh; */
+    height: 40vh;
     background-position: top center;
   }
   .wrapper {
-    padding: 40px 10%;
+    padding: 40px 4%;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -192,6 +193,9 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   }
   .image-slice h2 {
     font-size: 1em;
+  }
+  .wrapper {
+    padding: 40px 10%;
   }
 }
 </style>

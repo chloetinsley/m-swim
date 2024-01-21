@@ -89,6 +89,7 @@ main {
 }
 .middle {
   text-align: center;
+  justify-content: center;
 }
 @media only screen and (max-width: 640px) {
   .row {

@@ -30,7 +30,7 @@
         <p>© Copyright {{new Date().getFullYear()}} M Swim | Website by Chloe Tinsley</p>
       </div>
 
-      <div style>
+      <div class="social">
         <img
           alt="Facebook logo"
           class="logo"
@@ -94,6 +94,9 @@ img.m-club {
 }
 p {
   margin: 0;
+}
+.social {
+  display: flex;
 }
 @media only screen and (max-width: 640px) {
   .other-brands img {

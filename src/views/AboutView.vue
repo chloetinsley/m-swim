@@ -11,17 +11,26 @@
           refine your strokes, or prepare for a triathlon, we're with you, every lap of the way.
         </p>
         <h2>Based in 3 locations accross Staffordshire</h2>
-        <ul>
+        <ul class="locations">
           <li>
-            <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7">Waterworld leisure resort</a>
+            <a
+              href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7"
+              target="_blank"
+            >Waterworld leisure resort</a>
           </li>
 
           <li>
-            <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7">M Club Spa & Fitness in Newcastle</a>
+            <a
+              href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7"
+              target="_blank"
+            >M Club Spa & Fitness in Newcastle</a>
           </li>
 
           <li>
-            <a href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9">M Club Spa & Fitness in Hanley</a>
+            <a
+              href="https://maps.app.goo.gl/MHeQ3e8tmJPqdGTd9"
+              target="_blank"
+            >M Club Spa & Fitness in Hanley</a>
           </li>
         </ul>
       </div>
@@ -63,7 +72,7 @@
     </div>
 
     <p
-      class="row middle"
+      class="middle"
     >M Swim, where the water is your playground, and every stroke is a step towards aquatic mastery.</p>
   </div>
 </template>
@@ -71,11 +80,14 @@
 <style scoped>
 h2 {
   font-weight: normal;
-  margin: 20px 0;
+  margin: 20px 0 0 15px;
 }
 .heading {
   margin-top: 0;
   font-size: 1.2em;
+}
+.locations li {
+  padding-bottom: 5px;
 }
 a {
   color: #050a30;
@@ -91,11 +103,11 @@ a:active {
   position: relative;
   transition: 0.5s color ease;
   text-decoration: none;
-  color: #81b3d2;
+
   /* font-size: 2.5em; */
 }
 a:hover {
-  color: #d73444;
+  color: #81b3d2;
 }
 a:before,
 a.after:after {
@@ -170,6 +182,9 @@ p {
 ul {
   padding-left: 20px;
   list-style: circle;
+}
+.middle {
+  padding-top: 40px;
 }
 
 @media only screen and (max-width: 640px) {
