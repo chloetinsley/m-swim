@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer>
     <div class="columns">
       <p>Our other brands</p>
       <div class="other-brands">
@@ -20,13 +20,19 @@
         <img src="../assets/images/footer-logos/other-brands/waterworld.png" alt="Waterworld Logo" />
       </div>
     </div>
+    <div class="partner">
+      <img src="../assets/images/sta/sta-logo-two.png" alt="Adventure Mini Village Logo" />
+
+      <p>M Swim is an official STA partner and an accredited STA Swim Academy.</p>
+    </div>
     <div class="row">
       <div>
         <p>© Copyright {{new Date().getFullYear()}} M Swim | Website by Chloe Tinsley</p>
       </div>
+
       <div style>
         <img
-          alt="Vue logo"
+          alt="Facebook logo"
           class="logo"
           src="@/assets/images/footer-logos/facebook.png"
           height="30"
@@ -37,6 +43,16 @@
 </template>
 
 <style scoped>
+.partner {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: center;
+}
+.partner img {
+  height: 40px;
+  padding-right: 15px;
+}
 footer {
   background-color: #050a30;
   font-size: 14px;
@@ -85,6 +101,10 @@ p {
   }
   img.m-club {
     height: 28px;
+  }
+  .partner {
+    width: 80%;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 420px) {

@@ -67,7 +67,16 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
           </div>
         </div>
       </div>
+      <div class="wrapper partner light-grey">
+        <p>
+          <b>M Swim</b> is an official
+          <b>STA partner</b> and an accredited
+          <b>STA Swim Academy</b>.
+        </p>
+        <img src="../assets/images/sta/sta-logo.png" />
+      </div>
     </div>
+
     <ReadyToEnquireComponent />
   </div>
 </template>
@@ -86,7 +95,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   align-self: center;
   height: 50vh;
   padding: 30px;
-  background-image: url('../assets/images/home/wrapper.png');
+  background-image: url('../assets/images/home/banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,9 +145,8 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   font-size: 14px;
 }
 .img.one {
-  background-color: black;
-  /* background-image: url('../assets/images/home/locations/newcastle.jpeg'); */
-  /* background-position: bottom center; */
+  background-image: url('../assets/images/home/locations/waterworld.jpg');
+  background-position: bottom center;
 }
 .img.two {
   background-image: url('../assets/images/home/locations/newcastle.jpeg');
@@ -146,8 +154,17 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 }
 
 .img.three {
-  background-image: url('../assets/images/home/locations/festival-park.jpeg');
-  background-position: center center;
+  background-image: url('../assets/images/home/locations/hanley.jpeg');
+  background-position: bottom center;
+}
+.partner {
+  display: flex;
+  align-items: center;
+  /* padding: 40px 0 0 0; */
+}
+.partner img {
+  width: 110px;
+  padding: 10px 0 0 0;
 }
 
 @media only screen and (max-width: 864px) {

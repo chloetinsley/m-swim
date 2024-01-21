@@ -24,7 +24,7 @@
   padding: 13px 28px;
   border-radius: 25px;
   background: none;
-  background-color: #009fe3;
+  background-color: #009ee0;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: none;
 }
