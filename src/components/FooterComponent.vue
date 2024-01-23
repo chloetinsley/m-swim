@@ -3,26 +3,48 @@
     <div class="columns">
       <p>Our other brands</p>
       <div class="other-brands">
-        <img
-          src="../assets/images/footer-logos/other-brands/adventure-mini-village.png"
-          alt="Adventure Mini Village Logo"
-        />
-        <img
-          src="../assets/images/footer-logos/other-brands/adventure-mini-golf.png"
-          alt="Adventure Mini Golf Logo"
-        />
-        <img
-          src="../assets/images/footer-logos/other-brands/m-club.png"
-          class="m-club"
-          alt="M Club Logo"
-        />
-        <img src="../assets/images/footer-logos/other-brands/nurture.png" alt="Nurture Logo" />
-        <img src="../assets/images/footer-logos/other-brands/waterworld.png" alt="Waterworld Logo" />
+        <a href="https://adventureminivillage.co.uk/" target="_blank">
+          <img
+            src="../assets/images/footer-logos/other-brands/adventure-mini-village.png"
+            alt="Adventure Mini Village Logo"
+          />
+        </a>
+        <a href="https://adventureminigolf.co.uk/" target="_blank">
+          <img
+            src="../assets/images/footer-logos/other-brands/adventure-mini-golf.png"
+            alt="Adventure Mini Golf Logo"
+          />
+        </a>
+        <a href="https://mclubspaandfitness.co.uk/" target="_blank">
+          <img
+            src="../assets/images/footer-logos/other-brands/m-club.png"
+            class="m-club"
+            alt="M Club Logo"
+          />
+        </a>
+        <a href="https://nurture-childcare.co.uk/" target="_blank">
+          <img
+            src="../assets/images/footer-logos/other-brands/nurture.png"
+            alt="Nurture Childcare Logo"
+          />
+        </a>
+        <a href="https://www.waterworld.co.uk/" target="_blank">
+          <img
+            src="../assets/images/footer-logos/other-brands/waterworld.png"
+            alt="Waterworld Logo"
+          />
+        </a>
       </div>
     </div>
     <div class="row footer-bottom">
       <div class="copyright">
-        <p>© Copyright {{new Date().getFullYear()}} M Swim | Website by Chloe Tinsley</p>
+        <p>
+          © Copyright {{new Date().getFullYear()}} M Swim | Website by
+          <a
+            href="https://www.linkedin.com/in/chloe-tinsley-a62a56131"
+            target="_blank"
+          >Chloe Tinsley</a>
+        </p>
       </div>
 
       <div class="partner">
@@ -70,10 +92,10 @@ footer > .row {
   display: flex;
   padding: 10px 0;
 }
-.other-brands img {
+.other-brands a img {
   height: 50px;
 }
-.other-brands img:not(:first-of-type) {
+.other-brands a:not(:first-of-type) {
   padding-left: 20px;
 }
 img.m-club {
@@ -81,6 +103,12 @@ img.m-club {
 }
 p {
   margin: 0;
+}
+.copyright a {
+  font-weight: 800;
+  /* border-bottom: dotted 0.2px #f4f6fc; */
+  color: #ebf7fd;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 864px) {
@@ -97,7 +125,7 @@ p {
   }
 }
 @media only screen and (max-width: 640px) {
-  .other-brands img {
+  .other-brands a img {
     height: 45px;
   }
   img.m-club {
@@ -112,7 +140,7 @@ p {
   }
 }
 @media only screen and (max-width: 420px) {
-  .other-brands img {
+  .other-brands a img {
     height: 28px;
   }
   img.m-club {

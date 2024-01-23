@@ -6,7 +6,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   <div>
     <div class="image-slice">
       <h1>Welcome to M Swim</h1>
-      <h2>where the journey to aquatic excellence begins.</h2>
+      <h2>Where the journey to aquatic excellence begins</h2>
     </div>
 
     <div class="wrapper light-blue">

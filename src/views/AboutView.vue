@@ -103,11 +103,12 @@ a:active {
   position: relative;
   transition: 0.5s color ease;
   text-decoration: none;
-
+  border-bottom: 0.5px dotted #000;
   /* font-size: 2.5em; */
 }
 a:hover {
   color: #81b3d2;
+  border-bottom: 0.5px dotted #81b3d2;
 }
 a:before,
 a.after:after {
