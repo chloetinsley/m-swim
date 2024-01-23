@@ -40,7 +40,10 @@ const router = createRouter({
         description: "Discover the Art of Swimming with M Swim. Our lessons are designed to be an exciting journey through water, guided by the renowned Swim England curriculum."
       }
     }
-  ]
+  ],
+  scrollBehavior() {
+    window.scrollTo(0, 0);
+  }
 })
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title;

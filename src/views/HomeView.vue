@@ -68,6 +68,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
         <br />Dive into a world of aquatic discovery, build confidence,
         and embrace the transformative power of swimming with M Swim.
       </p>
+      <RouterLink class="about-link" to="/about">find out more</RouterLink>
     </div>
     <div class="wrapper partner light-blue">
       <p>
@@ -116,7 +117,13 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 .rows {
   flex-direction: column;
 }
-
+.about-link {
+  text-decoration: #050a30 underline;
+  color: #050a30;
+  padding: 0;
+  width: 105px;
+  margin: 0 auto;
+}
 .location-block {
   width: 30%;
   border-radius: 25px;
