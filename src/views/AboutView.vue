@@ -38,7 +38,7 @@
         <img src="../assets/images/about/m-swim-located-in.jpeg" />
       </div>
     </div>
-    <div class="row">
+    <div class="row about-wrapper">
       <div class="block">
         <p class="heading">
           <b>Our Story</b>
@@ -121,6 +121,9 @@ a.after:after {
 .heading:not(:first-of-type) {
   margin-top: 1.5em;
 }
+.about-wrapper {
+  margin: 0 auto;
+}
 .block {
   margin: 25px;
   padding: 25px;
@@ -133,6 +136,7 @@ a.after:after {
   box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
   transform: rotate(-6deg);
   min-width: 240px;
+  max-width: 440px;
   transition: transform 0.15s linear;
 }
 
@@ -185,6 +189,30 @@ ul {
 }
 .middle {
   padding-top: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .block { */
+  /* padding: 18px 10px;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7); */
+  /* transform: rotate(-5deg); */
+  /* min-width: 240px;
+  transition: transform 0.15s linear; */
+  /* }
+  .block:nth-child(even) {
+    transform: rotate(3deg);
+    position: relative;
+    top: 5px;
+  }
+  .block:nth-child(3n) {
+    transform: rotate(-2deg);
+    position: relative;
+    top: -5px;
+  } */
 }
 
 @media only screen and (max-width: 640px) {

@@ -20,23 +20,14 @@
         <img src="../assets/images/footer-logos/other-brands/waterworld.png" alt="Waterworld Logo" />
       </div>
     </div>
-    <div class="partner">
-      <img src="../assets/images/sta/sta-logo-two.png" alt="Adventure Mini Village Logo" />
-
-      <p>M Swim is an official STA partner and an accredited STA Swim Academy.</p>
-    </div>
-    <div class="row">
-      <div>
+    <div class="row footer-bottom">
+      <div class="copyright">
         <p>© Copyright {{new Date().getFullYear()}} M Swim | Website by Chloe Tinsley</p>
       </div>
 
-      <div class="social">
-        <img
-          alt="Facebook logo"
-          class="logo"
-          src="@/assets/images/footer-logos/facebook.png"
-          height="30"
-        />
+      <div class="partner">
+        <img src="../assets/images/sta/sta-logo-two.png" alt="STA Logo" />
+        <p>M Swim is an official STA partner and an accredited STA Swim Academy.</p>
       </div>
     </div>
   </footer>
@@ -46,11 +37,10 @@
 .partner {
   display: flex;
   align-items: center;
-  padding-top: 15px;
   justify-content: center;
 }
 .partner img {
-  height: 40px;
+  height: 30px;
   padding-right: 15px;
 }
 footer {
@@ -61,11 +51,8 @@ footer {
 }
 footer > .row {
   display: flex;
-  /* align-self: center; */
   align-items: center;
-  /* flex-direction: column; */
   justify-content: space-between;
-  /* align-items: stretch; */
   padding: 15px 0;
 }
 .columns {
@@ -95,8 +82,19 @@ img.m-club {
 p {
   margin: 0;
 }
-.social {
-  display: flex;
+
+@media only screen and (max-width: 864px) {
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer-bottom .partner {
+    padding-bottom: 10px;
+  }
+  .copyright {
+    padding-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 640px) {
   .other-brands img {
@@ -109,6 +107,9 @@ p {
     width: 80%;
     justify-content: center;
   }
+  .footer-bottom .partner {
+    padding-bottom: 15px;
+  }
 }
 @media only screen and (max-width: 420px) {
   .other-brands img {
@@ -118,7 +119,7 @@ p {
     height: 18px;
   }
   footer {
-    padding: 0 7%;
+    padding: 0 5%;
   }
 }
 </style>
