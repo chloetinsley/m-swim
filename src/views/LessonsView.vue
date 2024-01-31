@@ -54,8 +54,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       </div>
 
       <div class="sta-logo">
-        <img src="../assets/images/sta/sta-logo.png" />
-        <!-- <img src="../assets/images/sta/sta-logo-two.png" /> -->
+        <img src="../assets/images/sta/sta-logo.png" alt="STA logo" />
       </div>
     </div>
     <ReadyToEnquireComponent />

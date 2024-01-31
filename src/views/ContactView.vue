@@ -45,6 +45,7 @@ function success() {
               <p>We aim to get back to you within 48 working hours</p>
               <div class="float-label-content">
                 <input
+                  id="customer_name"
                   class="float-input"
                   type="text"
                   name="customer_name"
@@ -59,6 +60,7 @@ function success() {
 
               <div class="float-label-content">
                 <input
+                  id="customer_email"
                   class="float-input"
                   type="email"
                   name="customer_email"
@@ -73,6 +75,7 @@ function success() {
 
               <div class="float-label-content">
                 <input
+                  id="customer_phone_number"
                   class="float-input"
                   type="number"
                   name="customer_phone_number"
@@ -87,6 +90,7 @@ function success() {
 
               <div class="float-label-content">
                 <input
+                  id="customer_age_of_swimmer"
                   class="float-input"
                   type="number"
                   name="customer_age_of_swimmer"
@@ -96,7 +100,7 @@ function success() {
               </div>
 
               <div class="float-label-content">
-                <textarea class="float-input" name="message" placeholder=" "></textarea>
+                <textarea id="message" class="float-input" name="message" placeholder=" "></textarea>
                 <label for="message" class="float-label">Query</label>
               </div>
 
