@@ -19,12 +19,11 @@
   justify-content: center;
 }
 .bubble-background button {
-  color: white;
+  color: #fdfeff;
   font-size: 1em;
   padding: 13px 28px;
-  border-radius: 25px;
-  background: none;
-  background-color: #009ee0;
+  border-radius: 20px;
+  background-color: #004b93;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border: none;
 }

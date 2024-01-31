@@ -76,7 +76,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
         <b>STA partner</b> and an accredited
         <b>STA Swim Academy</b>.
       </p>
-      <img src="../assets/images/sta/sta-logo.png" />
+      <img src="../assets/images/sta/sta-logo.png" alt="sta-logo" />
     </div>
     <ReadyToEnquireComponent />
   </div>

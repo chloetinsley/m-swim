@@ -51,7 +51,7 @@ function success() {
                   placeholder=" "
                   required
                 />
-                <label class="float-label">
+                <label for="customer_name" class="float-label">
                   Name
                   <span class="required">*</span>
                 </label>
@@ -65,7 +65,7 @@ function success() {
                   placeholder=" "
                   required
                 />
-                <label class="float-label">
+                <label for="customer_email" class="float-label">
                   Email
                   <span class="required">*</span>
                 </label>
@@ -79,7 +79,7 @@ function success() {
                   placeholder=" "
                   required
                 />
-                <label class="float-label">
+                <label for="customer_phone_number" class="float-label">
                   Phone Number
                   <span class="required">*</span>
                 </label>
@@ -92,12 +92,12 @@ function success() {
                   name="customer_age_of_swimmer"
                   placeholder=" "
                 />
-                <label class="float-label">Age Of Swimmer</label>
+                <label for="customer_age_of_swimmer" class="float-label">Age Of Swimmer</label>
               </div>
 
               <div class="float-label-content">
                 <textarea class="float-input" name="message" placeholder=" "></textarea>
-                <label class="float-label">Query</label>
+                <label for="message" class="float-label">Query</label>
               </div>
 
               <div class="button-container">

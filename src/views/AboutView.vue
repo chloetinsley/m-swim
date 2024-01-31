@@ -35,7 +35,10 @@
         </ul>
       </div>
       <div class="image-container">
-        <img src="../assets/images/about/m-swim-located-in.jpeg" />
+        <img
+          src="../assets/images/about/m-swim-located-in.jpeg"
+          alt="Swimming lesson in Newcastle and Hanley"
+        />
       </div>
     </div>
     <div class="row about-wrapper">
