@@ -7,12 +7,14 @@
           <img
             src="../assets/images/footer-logos/other-brands/adventure-mini-village.png"
             alt="Adventure Mini Village Logo"
+            loading="lazy"
           />
         </a>
         <a href="https://adventureminigolf.co.uk/" target="_blank">
           <img
             src="../assets/images/footer-logos/other-brands/adventure-mini-golf.png"
             alt="Adventure Mini Golf Logo"
+            loading="lazy"
           />
         </a>
         <a href="https://mclubspaandfitness.co.uk/" target="_blank">
@@ -20,18 +22,21 @@
             src="../assets/images/footer-logos/other-brands/m-club.png"
             class="m-club"
             alt="M Club Logo"
+            loading="lazy"
           />
         </a>
         <a href="https://nurture-childcare.co.uk/" target="_blank">
           <img
             src="../assets/images/footer-logos/other-brands/nurture.png"
             alt="Nurture Childcare Logo"
+            loading="lazy"
           />
         </a>
         <a href="https://www.waterworld.co.uk/" target="_blank">
           <img
             src="../assets/images/footer-logos/other-brands/waterworld.png"
             alt="Waterworld Logo"
+            loading="lazy"
           />
         </a>
       </div>
@@ -48,7 +53,7 @@
       </div>
 
       <div class="partner">
-        <img src="../assets/images/sta/sta-logo-two.png" alt="STA Logo" />
+        <img src="../assets/images/sta/sta-logo-two.png" alt="STA Logo" loading="lazy" />
         <p>M Swim is an official STA partner and an accredited STA Swim Academy.</p>
       </div>
     </div>

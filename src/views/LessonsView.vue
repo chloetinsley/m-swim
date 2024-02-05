@@ -12,7 +12,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       <div class="row">
         <div class="lesson">
           <div class="image">
-            <img src="../assets/images/lessons/baby.png" alt="Baby swimming lesson" />
+            <img src="../assets/images/lessons/baby.jpg" alt="Baby swimming lesson" />
           </div>
           <p class="heading">Baby & Parent Lessons</p>
           <p>From as early as six months, your little one can begin their wonderful introduction to water in our Baby & Parent classes. These sessions are a joyous bonding experience where babies explore the aquatic world under the gentle guidance of a parent.</p>
@@ -27,7 +27,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
         </div>
         <div class="lesson">
           <div class="image">
-            <img src="../assets/images/lessons/one-to-one.jpeg" alt="Private swimming lesson" />
+            <img src="../assets/images/lessons/one-to-one.jpg" alt="Private swimming lesson" />
           </div>
           <p class="heading">1:1 Private Lessons</p>
           <p>If you prefer a more tailored approach, our 1:1 private lessons are your ticket to a swimming transformation. Our experienced instructors work closely with you to address your unique goals and challenges, ensuring rapid improvement.</p>
