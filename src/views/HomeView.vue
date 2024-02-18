@@ -97,7 +97,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   align-self: center;
   height: 50vh;
   padding: 30px;
-  background-image: url('../assets/images/home/banner.jpg');
+  background-image: url('../assets/images/home/banner.webp');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
