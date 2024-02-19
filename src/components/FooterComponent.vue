@@ -95,13 +95,13 @@ footer > .row {
   align-items: center;
   align-self: center;
   display: flex;
-  padding: 10px 0;
+  margin: 10px 0;
 }
 .other-brands a img {
   height: 50px;
 }
 .other-brands a:not(:first-of-type) {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 img.m-club {
   height: 38px;
@@ -163,7 +163,7 @@ p {
     height: 10px;
   }
   .other-brands a:not(:first-of-type) {
-    padding-left: 12px;
+    margin-left: 12px;
   }
 }
 </style>
