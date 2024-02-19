@@ -10,7 +10,7 @@ const router = createRouter({
       component: HomeView,
       meta: {
         title: 'M Swim | Swim School in Staffordshire',
-        description: "Swimming lessons in Staffordshire based in M Club Spa & Fitness in Hanley and Newcastle-under-Lyme offering lessons for Babies and toddlers, Childrens beginner and Adults."
+        description: "Swimming lessons in Staffordshire, M Swim is based in M Club Spa & Fitness in Hanley and Newcastle-under-Lyme offering lessons for Babies and toddlers, Childrens beginner and Adults."
       }
     },
     {
