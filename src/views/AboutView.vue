@@ -90,13 +90,11 @@ h2 {
   font-size: 1.2em;
 }
 .locations li {
-  padding-bottom: 5px;
+  padding-bottom: 12px;
 }
 a {
   color: #050a30;
-  /* text-decoration: none; */
 }
-/* frtyu */
 a,
 a:visited,
 a:hover,
@@ -107,7 +105,6 @@ a:active {
   transition: 0.5s color ease;
   text-decoration: none;
   border-bottom: 0.5px dotted #000;
-  /* font-size: 2.5em; */
 }
 a:hover {
   color: #81b3d2;
