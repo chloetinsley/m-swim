@@ -8,7 +8,7 @@
 
 <style scoped>
 .bubble-background {
-  background-image: url('../assets/images/bubble-background8.png');
+  background-image: url('../assets/images/bubble-background8.webp');
   background-position: top right;
   background-size: cover;
   height: 170px;
