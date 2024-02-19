@@ -161,22 +161,21 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   font-size: 14px;
 }
 .img.one {
-  background-image: url('../assets/images/home/locations/waterworld.jpg');
+  background-image: url('../assets/images/home/locations/waterworld.webp');
   background-position: bottom center;
 }
 .img.two {
-  background-image: url('../assets/images/home/locations/newcastle.jpeg');
+  background-image: url('../assets/images/home/locations/newcastle.webp');
   background-position: bottom center;
 }
 
 .img.three {
-  background-image: url('../assets/images/home/locations/hanley.jpeg');
+  background-image: url('../assets/images/home/locations/hanley.webp');
   background-position: bottom center;
 }
 .partner {
   display: flex;
   align-items: center;
-  /* padding: 40px 0 0 0; */
 }
 .partner img {
   width: 110px;

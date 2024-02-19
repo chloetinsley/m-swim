@@ -38,7 +38,7 @@ function toggleNavIcon() {
       <div class="top-content">
         <div class="logo-container">
           <RouterLink to="/">
-            <img alt="Vue logo" class="logo" src="@/assets/images/logo.png" />
+            <img alt="M Swim logo" class="logo" src="../assets/images/logo.webp" />
           </RouterLink>
         </div>
         <div @click="toggleMenu()" id="menu" class="burger menu"></div>
