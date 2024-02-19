@@ -110,9 +110,9 @@ p {
   margin: 0;
 }
 .copyright a {
-  font-weight: 800;
-  /* border-bottom: dotted 0.2px #f4f6fc; */
-  color: #ebf7fd;
+  font-size: 0.93em;
+  border-bottom: 0.3px dotted #fdfeff;
+  color: #fdfeff;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ p {
     padding-bottom: 15px;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 435px) {
   .other-brands a img {
     height: 28px;
   }
@@ -153,6 +153,17 @@ p {
   }
   footer {
     padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .other-brands a img {
+    height: 21px;
+  }
+  img.m-club {
+    height: 10px;
+  }
+  .other-brands a:not(:first-of-type) {
+    padding-left: 12px;
   }
 }
 </style>

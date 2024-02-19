@@ -203,15 +203,20 @@ a:hover::before {
     border-bottom: 0.5px solid #bbe3fa;
   }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 435px) {
   header {
     height: 100px;
   }
   .logo {
-    max-height: 50px;
+    max-height: 47px;
   }
   .top-content {
     padding: 20px 30px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .logo {
+    max-height: 40px;
   }
 }
 </style>

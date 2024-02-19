@@ -4,6 +4,14 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 
 <template>
   <div>
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="../assets/images/home/banner.webp"
+      type="image/webp"
+    />
+
     <div class="image-slice">
       <h1>Welcome to M Swim</h1>
       <h2>Where the journey to aquatic excellence begins</h2>
