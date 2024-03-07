@@ -15,7 +15,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
             <img src="../assets/images/lessons/baby.jpg" alt="Baby swimming lesson" />
           </div>
           <p class="heading">Baby & Parent Lessons</p>
-          <p>From as early as six months, your little one can begin their wonderful introduction to water in our Baby & Parent classes. These sessions are a joyous bonding experience where babies explore the aquatic world under the gentle guidance of a parent.</p>
+          <p>From newborn, your little one can begin their wonderful introduction to water in our Baby & Parent classes. These sessions are a joyous bonding experience where babies explore the aquatic world under the gentle guidance of a parent.</p>
         </div>
 
         <div class="lesson">

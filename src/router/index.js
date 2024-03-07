@@ -10,7 +10,7 @@ const router = createRouter({
       component: HomeView,
       meta: {
         title: 'M Swim | Swim School in Staffordshire',
-        description: "Swimming lessons in Staffordshire, M Swim is based in M Club Spa & Fitness in Hanley and Newcastle-under-Lyme offering lessons for Babies and toddlers, Childrens beginner and Adults."
+        description: "Embark on your swimming journey with expert guidance at M Swim in Staffordshire, conveniently nestled within M Club Spa & Fitness in Hanley and Newcastle-under-Lyme and Waterworld. Our comprehensive range of classes includes children's beginner swimming lessons, baby and toddler swimming sessions, and adult swimming lessons. Whether you're seeking swim lessons near Stoke-on-Trent or eager to learn to swim proficiently, explore our tailored programs designed to nurture your aquatic skills."
       }
     },
     {
