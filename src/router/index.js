@@ -37,7 +37,7 @@ const router = createRouter({
       component: () => import('../views/LessonsView.vue'),
       meta: {
         title: 'M Swim | Swim Lessons in Staffordshire',
-        description: "Learn to swim with M Swim, an official STA partner and an accredited STA Swim Academy. Our lessons are designed to be an exciting journey through water."
+        description: "Dive into top-quality swimming lessons at M Swim in Stoke-on-Trent, serving Newcastle-under-Lyme and Hanley. Our tailored programs cater to all ages and skill levels, starting from newborns to adults. We offer a variety of options including baby & parent, children’s beginner swimming classes, adult sessions, group sessions, 1:1 private lessons, and school lessons. Learn to swim confidently with M Swim today, an official STA partner and accredited STA Swim Academy."
       }
     }
   ],
