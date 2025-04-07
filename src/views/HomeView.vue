@@ -68,7 +68,11 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
         <br />Dive into a world of aquatic discovery, build confidence,
         and embrace the transformative power of swimming with M Swim.
       </p>
-      <RouterLink class="about-link" to="/about">find out more</RouterLink>
+      <div class="inline">
+        <RouterLink class="about-link" to="/about">find out more</RouterLink>
+        <p> or </p>
+        <a class="about-link" target="_blank" rel="noopener noreferrer" href="https://m-swim.soak.ly/#/online-booking">book online</a><p>.</p>
+      </div>
     </div>
     <div class="wrapper partner light-blue">
       <p>
@@ -83,6 +87,23 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 </template>
 
 <style scoped>
+.image-slice {
+  background-image: url('../assets/images/home/banner.webp');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  height: 50vh;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  opacity: 90%;
+  text-shadow: 0px 1px 4px #050a30;
+}
 .wrapper {
   text-align: center;
   padding: 40px 15%;
@@ -91,23 +112,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   text-shadow: 0px 1px 4px #ebf7fd;
   padding-bottom: 15px;
 }
-.image-slice {
-  display: flex;
-  align-items: center;
-  align-self: center;
-  height: 50vh;
-  padding: 30px;
-  background-image: url('../assets/images/home/banner.webp');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  text-align: center;
-  opacity: 90%;
-  text-shadow: 0px 1px 4px #050a30;
-}
+
 .image-slice h1 {
   font-size: 3em;
 }
@@ -117,11 +122,14 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 .rows {
   flex-direction: column;
 }
+.inline, .inline p {
+  display: inline;
+}
 .about-link {
   text-decoration: #050a30 underline;
   color: #050a30;
   padding: 0;
-  width: 105px;
+  /* width: 105px; */
   margin: 0 auto;
 }
 .location-block {
