@@ -3,20 +3,6 @@
     <div class="columns">
       <p>Our other brands</p>
       <div class="other-brands">
-        <a href="https://adventureminivillage.co.uk/" target="_blank">
-          <img
-            src="../assets/images/footer-logos/other-brands/adventure-mini-village.png"
-            alt="Adventure Mini Village Logo"
-            loading="lazy"
-          />
-        </a>
-        <a href="https://adventureminigolf.co.uk/" target="_blank">
-          <img
-            src="../assets/images/footer-logos/other-brands/adventure-mini-golf.png"
-            alt="Adventure Mini Golf Logo"
-            loading="lazy"
-          />
-        </a>
         <a href="https://mclubspaandfitness.co.uk/" target="_blank">
           <img
             src="../assets/images/footer-logos/other-brands/m-club.png"
@@ -29,13 +15,6 @@
           <img
             src="../assets/images/footer-logos/other-brands/nurture.png"
             alt="Nurture Childcare Logo"
-            loading="lazy"
-          />
-        </a>
-        <a href="https://www.waterworld.co.uk/" target="_blank">
-          <img
-            src="../assets/images/footer-logos/other-brands/waterworld.png"
-            alt="Waterworld Logo"
             loading="lazy"
           />
         </a>

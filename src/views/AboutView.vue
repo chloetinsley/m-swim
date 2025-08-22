@@ -10,15 +10,8 @@
           and fun that swimming brings to life. Whether you're here to conquer your fear of water,
           refine your strokes, or prepare for a triathlon, we're with you, every lap of the way.
         </p>
-        <h2>Based in 3 locations accross Staffordshire</h2>
+        <h2>Based in 2 locations accross Staffordshire</h2>
         <ul class="locations">
-          <li>
-            <a
-              href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7"
-              target="_blank"
-            >Waterworld leisure resort</a>
-          </li>
-
           <li>
             <a
               href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7"

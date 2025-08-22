@@ -33,7 +33,7 @@ function success() {
         <div class>
           <div class="contact-conent">
             <p>or send us an email</p>
-            <a href="mailto:mswim@waterworld.co.uk">mswim@waterworld.co.uk</a>
+            <a href="mailto:mswim@mclubspaandfitness.com">mswim@mclubspaandfitness.com</a>
           </div>
         </div>
       </div>

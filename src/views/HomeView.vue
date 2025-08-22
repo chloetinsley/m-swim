@@ -9,10 +9,10 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
       <h2>Where the journey to aquatic excellence begins</h2>
     </div>
 
-    <div class="wrapper light-blue">
+    <div class="wrapper light-blue locations">
       <h3>Locations</h3>
       <div class="row">
-        <div class="location-block">
+       <!-- <div class="location-block">
           <a href="https://maps.app.goo.gl/uqat7mUi3UN1SxVP7" target="_blank">
             <div class="img one"></div>
             <div class="location-info">
@@ -25,7 +25,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
               </p>
             </div>
           </a>
-        </div>
+        </div>-->
         <div class="location-block">
           <a href="https://maps.app.goo.gl/SbjC99EBpPGqz6ce7" target="_blank">
             <div class="img two"></div>
@@ -108,6 +108,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   text-align: center;
   padding: 40px 15%;
 }
+
 .wrapper h3 {
   text-shadow: 0px 1px 4px #ebf7fd;
   padding-bottom: 15px;
@@ -132,8 +133,11 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   /* width: 105px; */
   margin: 0 auto;
 }
+.wrapper.locations {
+   padding: 40px 28%;
+}
 .location-block {
-  width: 30%;
+  width: 45%;
   border-radius: 25px;
   overflow: hidden;
   background-color: white;
@@ -147,6 +151,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 .location-block a {
   color: #050a30;
   text-decoration: none;
+
 }
 .location-block .img {
   --mask: radial-gradient(16.8px at 50% calc(100% - 23.5px), #000 99%, #0000 101%) calc(50% - 20px)
@@ -159,6 +164,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
 
 .location-info p:not(.head) {
   font-size: 14px;
+  text-decoration: #050a30 underline;
 }
 .img.one {
   background-image: url('../assets/images/home/locations/waterworld.webp');
@@ -182,6 +188,12 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   padding: 10px 0 0 0;
 }
 
+@media only screen and (max-width: 1200px) {
+  .wrapper.locations {
+     padding: 40px 12%;
+  }
+}
+
 @media only screen and (max-width: 864px) {
   .image-slice {
     height: 40vh;
@@ -190,6 +202,7 @@ import ReadyToEnquireComponent from '../components/ReadyToEnquireComponent.vue'
   .wrapper {
     padding: 40px 4%;
   }
+
 }
 @media only screen and (max-width: 640px) {
   .row {
